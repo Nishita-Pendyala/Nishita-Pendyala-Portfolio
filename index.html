@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pendyala's Portfolio</title>
+    <title>Nishita Pendyala - Data Engineer Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
+            <div class="navbar-brand">Nishita</div>
             <ul class="navbar-links">
-                <li><a href="#about" class="navbar-link">About Me</a></li>
+                <li><a href="#about" class="navbar-link">About</a></li>
                 <li><a href="#skills" class="navbar-link">Skills</a></li>
                 <li><a href="#experience" class="navbar-link">Experience</a></li>
-                <li><a href="#contact" class="navbar-link">Contact Me</a></li>
+                <li><a href="#contact" class="navbar-link">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="intro-section">
         <div class="intro-text">
-            <h3 class="intro-greeting">I am</h3>
-            <h1 class="intro-name">Nishita Pendyala </h1>
+            <h3 class="intro-greeting">Welcome, I am</h3>
+            <h1 class="intro-name">Nishita Pendyala</h1>
             <h2 class="intro-title">Data Engineer</h2>
+            <p style="margin-top: 1rem; font-size: 1.1rem; opacity: 0.9;">Building enterprise-scale data solutions that drive innovation</p>
+            <div class="intro-cta">
+                <a href="#contact" class="cta-button cta-primary">Get In Touch</a>
+                <a href="#experience" class="cta-button cta-secondary">View My Work</a>
+            </div>
         </div>
         <div class="intro-image">
             <img src="profile.jpg" alt="Nishita Pendyala" class="profile-image">
@@ -32,213 +37,237 @@
     </div>
 
     <section id="about" class="about-section">
+        <h1 class="section-title">About Me</h1>
         <div class="about-content">
-            <h1 class="section-title">About Me</h1>
-            <p class="about-description">
-                I am a Data Engineer with 7+ years of experience in building scalable, cloud-native data solutions across financial, telecom, and retail sectors. My expertise lies in big data technologies, AWS and Azure ecosystems, and high-performance ETL pipeline development. I specialize in designing end-to-end data architectures, optimizing data lake implementations with Parquet and Iceberg, and engineering real-time streaming solutions that enhance analytics and decision-making. With a strong foundation in Python, SQL, and Spark, I have successfully optimized data processing workflows, reducing latency and improving system efficiency.
-            </p>
-            <p class="about-description">
-                Beyond technical development, I am passionate about optimizing cloud infrastructure, implementing CI/CD automation, and ensuring data quality through robust validation frameworks. I enjoy collaborating with cross-functional teams to transform raw data into actionable insights that drive business growth. Currently, I am focused on leveraging serverless architectures, database optimizations, and machine learning pipelines to push the boundaries of data engineering. I thrive in fast-paced, Agile environments, where I can solve complex challenges and innovate scalable solutions.              
-            </p>
+            <div>
+                <p class="about-description">
+                    I am a Data Engineer with 5+ years of experience designing and implementing enterprise-scale data solutions across telecommunications, retail, and technology sectors. My expertise spans cloud platforms (AWS, Azure), modern data warehousing technologies (Snowflake, Teradata, Redshift), and end-to-end ETL/ELT pipeline development.
+                </p>
+                <p class="about-description">
+                    I specialize in building automated data pipelines that process millions of records daily with exceptional accuracy, designing fault-tolerant architectures, and implementing comprehensive data governance frameworks. I'm passionate about optimizing cloud infrastructure, implementing CI/CD automation, and ensuring regulatory compliance.
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">ETL Workflows Built</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Data Accuracy</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label">Anomaly Reduction</div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="skills" class="skills-section">
         <h1 class="section-title">Technical Skills</h1>
         <div class="skills-container">
-             <div class="skill-card">
-                <div class="skill-header">
-                    <h3 class="skill-title">Big Data Technologies</h3>
-                </div>
-                <div class="skill-list">
-                    <div class="skill-item"><i class="fas fa-elephant"></i> Hadoop</div>
-                    <div class="skill-item"><i class="fas fa-bolt"></i> Apache Spark</div>
-                    <div class="skill-item"><i class="fas fa-database"></i> Databricks </div>
-                    <div class="skill-item"><i class="fas fa-file"></i> Parquet </div>
-                    <div class="skill-item"><i class="fas fa-mountain"></i> Iceberg </div>
-                    <div class="skill-item"><i class="fas fa-layer-group"></i> Delta Lake </div>
-                </div>
-            </div>
             <div class="skill-card">
                 <div class="skill-header">
+                    <i class="fas fa-database"></i>
                     <h3 class="skill-title">SQL Technologies</h3>
                 </div>
                 <div class="skill-list">
-                    <div class="skill-item"><i class="fas fa-database"></i> MySQL</div>
-                    <div class="skill-item"><i class="fas fa-server"></i> MS SQL Server</div>
-                    <div class="skill-item"><i class="fas fa-code"></i> PL/SQL</div>
-                    <div class="skill-item"><i class="fas fa-cubes"></i> Teradata</div>
-                    <div class="skill-item"><i class="fab fa-docker"></i> Hadoop Hive</div>
+                    <div class="skill-item"><i class="fas fa-cube"></i> Teradata</div>
+                    <div class="skill-item"><i class="fas fa-server"></i> SQL Server</div>
                     <div class="skill-item"><i class="fas fa-database"></i> Oracle DB</div>
+                    <div class="skill-item"><i class="fas fa-snowflake"></i> Snowflake</div>
+                    <div class="skill-item"><i class="fab fa-aws"></i> Amazon Redshift</div>
+                    <div class="skill-item"><i class="fab fa-microsoft"></i> Azure Synapse</div>
                 </div>
             </div>
 
             <div class="skill-card">
                 <div class="skill-header">
+                    <i class="fas fa-code"></i>
                     <h3 class="skill-title">Languages</h3>
                 </div>
                 <div class="skill-list">
                     <div class="skill-item"><i class="fas fa-database"></i> SQL</div>
                     <div class="skill-item"><i class="fab fa-python"></i> Python</div>
-                    <div class="skill-item"><i class="fas fa-chart-line"></i> R</div>
                     <div class="skill-item"><i class="fas fa-code"></i> PL/SQL</div>
+                    <div class="skill-item"><i class="fas fa-terminal"></i> Unix Shell Scripting</div>
+                    <div class="skill-item"><i class="fas fa-chart-line"></i> DAX & M Query</div>
                 </div>
             </div>
 
             <div class="skill-card">
                 <div class="skill-header">
+                    <i class="fas fa-exchange-alt"></i>
                     <h3 class="skill-title">ETL Tools</h3>
                 </div>
                 <div class="skill-list">
-                    <div class="skill-item"><i class="fas fa-code"></i> Pentaho Data Integration</div>
+                    <div class="skill-item"><i class="fas fa-exchange-alt"></i> Informatica PowerCenter</div>
                     <div class="skill-item"><i class="fab fa-aws"></i> AWS Glue</div>
-                    <div class="skill-item"><i class="fas fa-exchange-alt"></i> Informatica</div>
+                    <div class="skill-item"><i class="fas fa-bolt"></i> PySpark</div>
+                    <div class="skill-item"><i class="fas fa-database"></i> Apache Spark</div>
+                    <div class="skill-item"><i class="fas fa-chart-bar"></i> Power BI Dataflows</div>
                 </div>
             </div>
 
             <div class="skill-card">
                 <div class="skill-header">
+                    <i class="fas fa-cube"></i>
+                    <h3 class="skill-title">Big Data & Storage</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item"><i class="fas fa-database"></i> Databricks</div>
+                    <div class="skill-item"><i class="fas fa-search"></i> Elasticsearch</div>
+                    <div class="skill-item"><i class="fas fa-check-circle"></i> Great Expectations</div>
+                    <div class="skill-item"><i class="fas fa-layer-group"></i> Collibra</div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fas fa-tools"></i>
                     <h3 class="skill-title">IDE & Tools</h3>
                 </div>
                 <div class="skill-list">
-                    <div class="skill-item"><i class="fas fa-desktop"></i> Visual Studio</div>
-                    <div class="skill-item"><i class="fas fa-database"></i> MySQL</div>
-                    <div class="skill-item"><i class="fas fa-database"></i> SQL Developer</div>
-                    <div class="skill-item"><i class="fas fa-chart-bar"></i> Tableau</div>
-                    <div class="skill-item"><i class="fab fa-python"></i> PySpark</div>
+                    <div class="skill-item"><i class="fas fa-desktop"></i> Databricks</div>
+                    <div class="skill-item"><i class="fas fa-search"></i> Elasticsearch</div>
+                    <div class="skill-item"><i class="fas fa-check-circle"></i> Great Expectations</div>
+                    <div class="skill-item"><i class="fas fa-building"></i> JDE ERP</div>
+                    <div class="skill-item"><i class="fas fa-tasks"></i> Control-M</div>
                 </div>
             </div>
 
             <div class="skill-card">
                 <div class="skill-header">
-                    <h3 class="skill-title">Source Control</h3>
-                </div>
-                <div class="skill-list">
-                    <div class="skill-item"><i class="fab fa-jira"></i> JIRA</div>
-                    <div class="skill-item"><i class="fas fa-sync-alt"></i> Agile Methodolgies</div>
-                </div>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-header">
+                    <i class="fab fa-git-alt"></i>
                     <h3 class="skill-title">Version Control</h3>
                 </div>
                 <div class="skill-list">
                     <div class="skill-item"><i class="fab fa-git"></i> Git</div>
-                    <div class="skill-item"><i class="fab fa-github"></i> GitHub</div>
-                    <div class="skill-item"><i class="fab fa-bitbucket"></i> BitBucket</div>
+                    <div class="skill-item"><i class="fab fa-github"></i> GitHub Actions</div>
+                    <div class="skill-item"><i class="fas fa-code-branch"></i> U-Release</div>
+                    <div class="skill-item"><i class="fas fa-code-branch"></i> U-Deploy</div>
+                    <div class="skill-item"><i class="fab fa-jira"></i> JIRA</div>
                 </div>
             </div>
 
             <div class="skill-card">
                 <div class="skill-header">
+                    <i class="fab fa-aws"></i>
                     <h3 class="skill-title">Cloud Technologies</h3>
                 </div>
                 <div class="skill-list">
-                    <div class="skill-item"><i class="fab fa-aws"></i> AWS Services</div>
-                    <div class="skill-item"><i class="fab fa-microsoft"></i> MS Azure</div>
-                    <div class="skill-item"><i class="fas fa-snowflake"></i> Snowflake</div>
+                    <div class="skill-item"><i class="fab fa-aws"></i> AWS S3, Lambda, Glue</div>
+                    <div class="skill-item"><i class="fab fa-aws"></i> Step Functions, CloudWatch</div>
+                    <div class="skill-item"><i class="fab fa-aws"></i> KMS, SageMaker, CodePipeline</div>
+                    <div class="skill-item"><i class="fab fa-aws"></i> CloudFormation</div>
+                    <div class="skill-item"><i class="fab fa-microsoft"></i> Azure Synapse, ML, Key Vault</div>
                 </div>
             </div>
 
             <div class="skill-card">
                 <div class="skill-header">
-                    <h3 class="skill-title">API's</h3>
-                </div>
-                <div class="skill-list">
-                    <div class="skill-item"><i class="fas fa-plug"></i> RESTful API Development</div>
-                    <div class="skill-item"><i class="fas fa-cloud-upload-alt"></i> AWS AppSync</div>
-                    <div class="skill-item"><i class="fas fa-network-wired"></i> API Gateway</div>
-                </div>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-header">
-                    <h3 class="skill-title">Visualization Tools</h3>
+                    <i class="fas fa-chart-pie"></i>
+                    <h3 class="skill-title">Visualization & Analytics</h3>
                 </div>
                 <div class="skill-list">
                     <div class="skill-item"><i class="fas fa-chart-pie"></i> Power BI</div>
-                    <div class="skill-item"><i class="fas fa-chart-bar"></i> Tableau</div>
+                    <div class="skill-item"><i class="fas fa-chart-bar"></i> Advanced Dashboards</div>
+                    <div class="skill-item"><i class="fas fa-chart-line"></i> DAX Calculations</div>
+                    <div class="skill-item"><i class="fas fa-lock"></i> Row-Level Security</div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3 class="skill-title">Data Governance & Security</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item"><i class="fas fa-shield-alt"></i> Data Governance</div>
+                    <div class="skill-item"><i class="fas fa-lock"></i> Encryption (KMS, Key Vault)</div>
+                    <div class="skill-item"><i class="fas fa-database"></i> Data Lineage</div>
+                    <div class="skill-item"><i class="fas fa-check-circle"></i> Regulatory Compliance</div>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="experience" class="experience-section">
-        <h1 class="section-title">Experience</h1>
+        <h1 class="section-title">Professional Experience</h1>
         <div class="experience-container">
             <div class="experience-sidebar">
                 <button class="experience-tab active" onclick="showContent(0)">
                     <h3 class="company-name">Lowe's</h3>
                     <h4 class="job-title">Data Engineer</h4>
+                    <p class="job-date">Jan 2025 – Present</p>
                 </button>
                 <button class="experience-tab" onclick="showContent(1)">
                     <h3 class="company-name">Verizon</h3>
                     <h4 class="job-title">Data Engineer</h4>
+                    <p class="job-date">Dec 2023 – Dec 2024</p>
                 </button>
                 <button class="experience-tab" onclick="showContent(2)">
-                    <h3 class="company-name">Synchrony Financial</h3>
+                    <h3 class="company-name">Cisco – Tech Mahindra</h3>
                     <h4 class="job-title">Data Engineer</h4>
-                </button>
-                <button class="experience-tab" onclick="showContent(3)">
-                    <h3 class="company-name">ZOHO Corporation</h3>
-                    <h4 class="job-title">Data Engineer</h4>
+                    <p class="job-date">Jan 2020 – Dec 2022</p>
                 </button>
             </div>
-    
-            <!-- Content Area -->
+
             <div class="experience-content">
                 <div class="experience-details active">
                     <h3 class="job-title">Data Engineer at Lowe's</h3>
                     <ul class="experience-list">
-                        <li>Designed and implemented <b>fully automated big data pipelines</b> using <b>AWS (S3, Lambda, Glue)</b>, improving processing efficiency by <b>40%</b>.</li> 
-<li>Built <b>Iceberg tables on Parquet format</b>, enabling efficient querying and cost-effective <b>data lake storage</b>.</li> 
-<li>Developed <b>AWS AppSync-based APIs</b>, allowing seamless data access across business applications.</li> 
-<li>Created <b>serverless event-driven data pipelines</b> with <b>AWS Lambda</b>, reducing operational overhead.</li> 
-<li>Optimized <b>SQL queries for AWS Aurora and Redshift</b>, improving database performance by <b>60%</b>.</li> 
-<li>Led <b>CI/CD automation</b> with <b>GitHub Actions & AWS CodePipeline</b>, reducing deployment time significantly.</li> 
-<li>Established <b>data validation and quality assurance frameworks</b> using <b>Python and Pandas</b>, ensuring <b>high data accuracy</b>.</li> 
-<li>Implemented <b>S3 lifecycle policies</b> and <b>cost optimization strategies</b>, reducing cloud storage costs.</li>
+                        <li>Designed and implemented a fully automated end-to-end invoice processing pipeline with <b>300% increase in daily processing capacity</b> (5-30 to 90-100 invoices/day) using AWS (S3, Lambda, Glue) and Informatica PowerCenter.</li>
+                        <li>Integrated supplier data from secure SFTP servers into JDE ERP system (Tables F0411, F0911) with automated validation and transformation.</li>
+                        <li>Engineered event-driven AWS Lambda functions for automated data validation, transformation, and error handling with comprehensive retry mechanisms.</li>
+                        <li>Implemented fault-tolerant data pipelines using AWS Step Functions to orchestrate workflows across multiple services with robust error management.</li>
+                        <li>Engineered advanced Python scripts with Pandas and AWS Boto3 to process complex multi-header invoice structures efficiently.</li>
+                        <li>Leveraged AWS KMS for encryption and secure handling of sensitive financial data, ensuring compliance with data protection standards.</li>
+                        <li>Built modern CI/CD pipelines using GitHub Actions and AWS CodePipeline with Infrastructure as Code (IaC) using AWS CloudFormation.</li>
+                        <li>Developed comprehensive monitoring solutions using AWS CloudWatch, Elasticsearch, and AWS SNS for real-time alerting and proactive issue resolution.</li>
+                        <li>Spearheaded migration of legacy ETL workflows to modern cloud-based architecture with AWS Glue and Snowflake, reducing infrastructure costs significantly.</li>
                     </ul>
                 </div>
+
                 <div class="experience-details">
                     <h3 class="job-title">Data Engineer at Verizon</h3>
                     <ul class="experience-list">
-                        <li>Migrated an <b>enterprise-scale telecom data lake</b> to <b>AWS</b>, leveraging <b>Parquet & Iceberg tables</b> for improved query performance.</li> 
-<li>Engineered <b>high-throughput ETL pipelines</b> using <b>PySpark and AWS Glue</b>, processing <b>petabytes of data</b> efficiently.</li> 
-<li>Developed <b>AWS AppSync APIs</b> for seamless integration between data sources and analytics platforms.</li> 
-<li>Created <b>machine learning data pipelines</b> with <b>AWS SageMaker</b>, enabling predictive analytics for customer insights.</li> 
-<li>Implemented <b>AWS DMS (Database Migration Service)</b> for secure and efficient data movement across platforms.</li> 
-<li>Designed <b>data encryption strategies and governance models</b>, ensuring compliance with telecom industry regulations.</li> 
-<li>Automated <b>data quality validation</b> using <b>Python scripts</b>, reducing data anomalies by <b>85%</b>.</li> 
-<li>Established <b>real-time monitoring solutions</b> using <b>AWS CloudWatch</b>, ensuring continuous performance tracking.</li>
+                        <li>Architected enterprise-scale telecom data lake migration across AWS and Azure platforms for network performance monitoring and reporting.</li>
+                        <li>Implemented secure Snowflake reporting solutions for telecom analytics, ensuring scalability and cost-efficiency at enterprise scale.</li>
+                        <li>Developed advanced Power BI dashboards for critical telecom metrics including network monitoring, Call Data Record (CDR) processing, and customer churn analytics.</li>
+                        <li>Implemented comprehensive data governance frameworks using Collibra with accurate data lineage, compliance tracking, and regulatory adherence.</li>
+                        <li>Engineered robust ETL processes using PySpark and Power BI Dataflows for complex telecom dataset transformations and analysis.</li>
+                        <li>Developed sophisticated DAX calculations and created advanced T-SQL/M Query transformations for complex telecom data preparation.</li>
+                        <li>Implemented stringent row-level security in Power BI to protect sensitive subscriber information (SPI) across reporting platforms.</li>
+                        <li>Migrated telecom analytical workloads between Azure Synapse Analytics and Amazon Redshift, achieving <b>40% reduction in computational resource utilization</b>.</li>
+                        <li>Developed machine learning pipelines for customer churn prediction using AWS SageMaker and Azure ML, integrated with Power BI analytics.</li>
+                        <li>Implemented cross-platform encryption key management across Azure Key Vault and AWS KMS for enterprise data security.</li>
+                        <li>Automated data quality validation using Great Expectations framework, reducing data anomalies by <b>85%</b> in complex telecom datasets.</li>
+                        <li>Optimized Spark configurations and SQL queries across multiple telecom data platforms for enhanced performance and cost efficiency.</li>
                     </ul>
                 </div>
+
                 <div class="experience-details">
-                    <h3 class="job-title">Data Engineer at Synchrony Financial</h3>
+                    <h3 class="job-title">Data Engineer at Cisco – Tech Mahindra</h3>
                     <ul class="experience-list">
-                    <ul>
-                        <li>Developed <b>Python-based ETL workflows</b> for processing complex financial datasets, ensuring <b>regulatory compliance</b>.</li> 
-<li>Architected <b>AWS Redshift-based data warehouse solutions</b>, optimizing query execution time by <b>50%</b>.</li> 
-<li>Led the <b>migration of financial data</b> from on-prem to AWS, utilizing <b>AWS Glue & DMS</b> for seamless transition.</li> 
-<li>Designed and implemented <b>real-time data streaming solutions</b> for trading analytics using <b>AWS Lambda</b>.</li> 
-<li>Enhanced <b>data security</b> by implementing <b>encryption protocols for PII data</b> across AWS services.</li> 
-<li>Created <b>Power BI dashboards</b>, enabling real-time financial insights for executive decision-making.</li> 
-<li>Developed <b>CI/CD pipelines with Azure DevOps</b>, reducing code deployment time by <b>60%</b>.</li> 
-<li>Provided <b>24/7 production support</b> for critical financial data pipelines, ensuring <b>99.9% uptime</b>.</li>
-                    </ul>
-                </div>
-                <div class="experience-details">
-                    <h3 class="job-title">Data Engineer at ZOHO Corporation</h3>
-                    <ul class="experience-list">
-                        <li>Designed <b>enterprise-scale big data solutions</b> using <b>AWS (S3, Redshift, Lambda)</b> and <b>Python</b>.</li> 
-<li>Engineered <b>ETL pipelines handling 500GB+ of daily financial transactions</b>, achieving <b>99.9% accuracy</b>.</li> 
-<li>Implemented <b>AWS Glue workflows with Python orchestration</b>, reducing data processing time by <b>60%</b>.</li> 
-<li>Built <b>event-driven Lambda functions</b> to detect anomalies in real-time data streams.</li> 
-<li>Created <b>serverless ETL processes</b>, significantly reducing infrastructure costs for large-scale data processing.</li> 
-<li>Developed <b>comprehensive documentation</b> for data pipelines, including <b>data lineage and transformation logic</b>.</li> 
-<li>Optimized <b>SQL queries in AWS Redshift</b>, improving report generation speed for <b>financial insights</b>.</li> 
-<li>Established <b>Bitbucket-based source control workflows</b>, ensuring <b>collaborative development and versioning</b>.</li>
+                        <li>Led end-to-end ETL development lifecycle for enterprise data pipelines, including requirement gathering, technical design, and implementation using Informatica PowerCenter and Teradata SQL.</li>
+                        <li>Designed and developed 50+ complex ETL workflows processing <b>10+ million records daily</b> with <b>99.9% accuracy</b> maintained through comprehensive validation frameworks.</li>
+                        <li>Developed Python scripts for data validation, quality checks, and automated monitoring, reducing manual validation time by <b>60%</b>.</li>
+                        <li>Implemented data profiling and reconciliation frameworks to ensure data integrity across source and target systems with daily Control-M dry runs.</li>
+                        <li>Optimized complex SQL queries and Informatica mappings, improving ETL performance by <b>40%</b> and reducing overnight batch processing time.</li>
+                        <li>Orchestrated systematic code deployment across dev/test/prod environments using Git repositories, U-Release, and U-Deploy for seamless multi-environment deployments.</li>
+                        <li>Implemented robust version control practices with Git, including branching strategies and meticulous code review ensuring zero production incidents.</li>
+                        <li>Monitored ETL job execution using Control-M, proactively identifying and resolving job failures, dependencies, and performance bottlenecks.</li>
+                        <li>Participated in production support rotation providing timely resolution for critical data issues with minimal business impact.</li>
+                        <li>Mentored junior team members on ETL best practices, Informatica development standards, and Python scripting techniques.</li>
+                        <li>Developed and maintained Unix shell scripts for file processing, data archival, and automated job scheduling integration.</li>
+                        <li>Implemented data security and masking techniques to protect sensitive information in non-production environments ensuring compliance with data privacy regulations.</li>
+                        <li>Contributed to continuous improvement initiatives, reducing manual effort by <b>45%</b> through automation solutions and process optimization.</li>
                     </ul>
                 </div>
             </div>
@@ -247,46 +276,87 @@
 
     <section id="contact" class="contact-section">
         <h1 class="section-title">Let's Connect</h1>
-        <form class="contact-form">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
             <label for="name" class="form-label">Your Name</label>
-            <input type="text" id="name" name="name" class="form-input" required>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
 
             <label for="email" class="form-label">Your Email</label>
-            <input type="email" id="email" name="email" class="form-input" required>
+            <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
 
             <label for="message" class="form-label">Your Message</label>
-            <textarea id="message" name="message" class="form-textarea" required></textarea>
+            <textarea id="message" name="message" class="form-textarea" placeholder="Tell me about your project or opportunity..." required></textarea>
 
             <button type="submit" class="form-button">Send Message</button>
         </form>
 
         <div class="social-links">
-            <a href="https://github.com" class="social-link"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com" class="social-link"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:your.email@example.com" class="social-link"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/nishita-pendyala" class="social-link" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/nishita-pendyala" class="social-link" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:nishita2701@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+12052021662" class="social-link" title="Phone"><i class="fas fa-phone"></i></a>
         </div>
     </section>
 
     <footer class="footer">
-        <p class="footer-text">© 2025 Pendyala Nishita. All Rights Reserved.</p>
+        <p class="footer-text">© 2025 Nishita Pendyala. All Rights Reserved.</p>
     </footer>
+
+    <button class="scroll-to-top" onclick="scrollToTop()" id="scrollTopBtn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
     <script>
         function showContent(index) {
-            // Get all tabs and contents
             const tabs = document.querySelectorAll(".experience-tab");
             const contents = document.querySelectorAll(".experience-details");
-    
-            // Remove active class from all tabs and contents
+
             tabs.forEach(tab => tab.classList.remove("active"));
             contents.forEach(content => content.classList.remove("active"));
-    
-            // Add active class to the clicked tab and corresponding content
+
             tabs[index].classList.add("active");
             contents[index].classList.add("active");
         }
 
+        function handleSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            
+            alert(`Thank you, ${name}! Your message has been received. I will get back to you soon at ${email}.`);
+            
+            document.querySelector('.contact-form').reset();
+        }
+
+        // Scroll to Top functionality
+        window.addEventListener('scroll', function() {
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.add('show');
+            } else {
+                scrollTopBtn.classList.remove('show');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
     </script>
-    <!-- <script src="slide.js"></script> -->
 </body>
 </html>
